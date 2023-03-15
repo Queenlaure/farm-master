@@ -1,0 +1,11 @@
+.no-farming-period-calendar {
+    background-color: var(--primary);
+    border: none!important;
+}
+.no-farming-period-calendar p, .no-farming-period-calendar h5 {
+    color: var(--white);
+}
+
+.calendar-item {
+    border: 1px solid #ccc;
+}

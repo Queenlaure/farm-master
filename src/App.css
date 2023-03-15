@@ -1,0 +1,92 @@
+:root {
+    --primary: #57AC49;
+    --secondary: #F8B63C;
+    --black: #222F3E; 
+    --white: #ECF0F1;
+    whi: #ecf0f1c9
+}
+.row {
+    margin: 0px;
+}
+.App {
+    margin-top: 54px;
+    margin-bottom: 4.5em;
+}
+
+.page-title {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.btn-primary, .btn-primary:focus, .btn-primary:focus-visible, .btn-primary:active  {
+    background-color: var(--primary)!important;
+    border-color: var(--primary)!important;
+    box-shadow: var(--primary)!important;
+}
+
+.btn-primary:hover  {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    opacity: 0.8;
+}
+
+.btn-outline-primary, .btn-outline-primary:focus, .btn-outline-primary:focus-visible, .btn-outline-primary:active  {
+    border-color: var(--primary)!important;
+    background-color: var(--white)!important;
+    color: var(--primary)!important;
+}
+
+.btn-outline-primary:hover  {
+
+    border-color: var(--primary);
+    background-color: var(--primary)!important;
+    color: var(--white)!important;
+    opacity: 0.8;
+}
+.link {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+/* Buttom nav bar */
+.bottom-nav {
+    overflow: hidden;
+    background-color: var(--primary);  
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.bottom-nav .tab {
+    text-align: center;
+    padding: 10px;
+}
+
+.bottom-nav i {
+    color: var(--white);
+    font-size: 20px;
+}
+.bottom-nav a {
+    /* float: left; */
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    /* padding: 14px; */
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.bottom-nav .tab:hover,
+.bottom-nav .tab.active
+{
+    background-color: var(--white);
+}
+
+.bottom-nav .tab:hover i,
+.bottom-nav .tab:hover a,
+.bottom-nav .tab.active i,
+.bottom-nav .tab.active a
+{
+    cursor: pointer;
+    color: var(--primary);
+}
